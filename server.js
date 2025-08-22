@@ -94,4 +94,4 @@ app.get('/api/users/:userId/interviews/:interviewId', async (req, res) => {
   }
 });
 
-app.listen(port, () => console.log(`Server running on port ${port}`));
+app.listen(PORT, '0.0.0.0', () => console.log(`Server running on port ${PORT}`));
